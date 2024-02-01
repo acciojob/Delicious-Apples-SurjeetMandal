@@ -18,8 +18,7 @@
 	background-color: white;
 	border-radius: 5px;
 	box-shadow: 1px 1px 10px gray;
-	margin-right: 40px;
-	position: relative;
+    position: relative;
     right: 30px;
 }
 .photo-main img{
@@ -64,11 +63,71 @@ li{
 }
 .wrapper{
 	background-color: white;
-	width: 500px;
+	width: 550px;
 	height: 450px;
 	display: flex;
 	flex-direction: row;
 	align-items: center;
 	border-radius: 2px;
-	position: absolute;
+	position: relative;
+    left: 25px;
+}
+h1{
+    color: #414a4c;
+    font-size: 24px;
+}
+.title span{
+    font-size: 12px;
+    color: gray;
+    position: relative;
+    bottom: 5px;
+}
+.price{
+    color: red;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+.price span{
+    font-size: 36px;
+    position: relative;
+    top: 4px;
+}
+h3{
+    color: gray;
+    font-size: 13px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    text-transform: uppercase;
+}
+.variant img{
+    width: 40px;
+    position: relative;
+    left: 20px;
+}
+.first_img img{
+    border: 1px solid lightgray;
+    border-radius: 2px;
+}
+.variant ul{
+    display: flex;
+    gap: 5px;
+}
+ul li p{
+    font-size: 12px;
+    padding: 2px;
+}
+.description li{
+    list-style: disc;
+    position: relative;
+    left: 40px;
+}
+button{
+    margin-top: 10px;
+    font-size: 12px;
+    background-color: #ff374e;
+    color: #fff;
+    border: none;
+    border-radius: 2px;
+    padding: 10px 30px;
+    box-shadow: 0px 0px 2px 2px #ff374e;
 }
