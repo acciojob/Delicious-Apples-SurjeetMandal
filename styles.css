@@ -19,12 +19,15 @@
 	border-radius: 5px;
 	box-shadow: 1px 1px 10px gray;
 	margin-right: 40px;
+	position: relative;
+    right: 30px;
 }
 .photo-main img{
 	width: 280px;
 	object-fit: cover;
 	position: relative;
-	padding-right: 50px;
+	right: 50px;
+    bottom: 30px;
 }
 .photo-main{
 	background-color: #BCCF33;
@@ -66,5 +69,6 @@ li{
 	display: flex;
 	flex-direction: row;
 	align-items: center;
-	border-radius: 10px;
+	border-radius: 2px;
+	position: absolute;
 }
